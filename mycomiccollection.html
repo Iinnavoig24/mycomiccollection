@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Comic Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            height: 100vh;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>My Comic Collection</h2>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#browse">Browse Collection</a>
+        <a href="#comic-details">Comic Details</a>
+        <a href="#wishlist">Wishlist</a>
+        <a href="#tracker">Reading Tracker</a>
+        <a href="#stats">Stats & Insights</a>
+        <a href="#import-export">Import & Export</a>
+        <a href="#settings">Settings</a>
+    </div>
+
+    <div class="content">
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Overview of your comic collection, including total comics owned and recent additions.</p>
+        </section>
+
+        <section id="browse">
+            <h2>Browse Collection</h2>
+            <p>Browse comics by Title, Publisher, Genre, Creator, Year, or Format.</p>
+        </section>
+
+        <section id="comic-details">
+            <h2>Comic Details</h2>
+            <p>Detailed information about each comic, including cover image, issue details, and personal notes.</p>
+        </section>
+
+        <section id="wishlist">
+            <h2>Wishlist</h2>
+            <p>Keep track of comics you want to add to your collection.</p>
+        </section>
+
+        <section id="tracker">
+            <h2>Reading Tracker</h2>
+            <p>Track your reading progress, set goals, and review comics you've read.</p>
+        </section>
+
+        <section id="stats">
+            <h2>Stats & Insights</h2>
+            <p>View collection value, most collected genres, and rarest comics.</p>
+        </section>
+
+        <section id="import-export">
+            <h2>Import & Export</h2>
+            <p>Upload or download your collection data for easy management.</p>
+        </section>
+
+        <section id="settings">
+            <h2>Settings</h2>
+            <p>Adjust display preferences, backup options, and account settings.</p>
+        </section>
+    </div>
+</body>
+</html>
